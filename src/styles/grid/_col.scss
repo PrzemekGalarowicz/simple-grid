@@ -1,0 +1,32 @@
+.col {  
+  box-sizing: border-box;
+  padding-right: $col--space;
+  padding-left: $col--space;
+  width: 100%;    
+  min-height: 1px;
+  position: relative;
+
+  &--offset {
+    padding-right: $col--space !important;
+    padding-left: $col--space !important;
+  }
+
+  @media only screen and (min-width: $mobile--width) {
+    float: left;
+    width: 49.9999999999%;
+  }
+}
+
+.col--6, .col--12 {
+  @media only screen and (min-width: $mobile--width) {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: $tablet--width) {
+  @for $i from 1 through 12 {
+    .col-#{$i} {
+      width: calc(#{$i}/12 * 100%)
+    }
+  }
+}

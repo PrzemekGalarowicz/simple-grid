@@ -1,0 +1,17 @@
+{
+  "name": "simple-grid",
+  "version": "1.5.0",
+  "description": "Is very simple, responsive grid system that you can use in your projects. Any style, any design. Just grid!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass ./src/styles/main.scss ./dist/simplegrid.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrzemekGalarowicz/simple-grid"
+  },
+  "author": "Przemek Galarowicz",
+  "license": "ISC",
+  "devDependencies": {}
+}
