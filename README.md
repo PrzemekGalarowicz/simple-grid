@@ -1,5 +1,4 @@
 # Simple Grid
-===================
 
  Simple Grid is very simple, responsive grid system that you can use in your projects. Any style, any design. Just grid!
  
