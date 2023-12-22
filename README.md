@@ -1,8 +1,8 @@
 # Simple Grid
 
- Simple Grid is very simple, responsive grid system that you can use in your projects. Any style, any design. Just grid!
+ Simple Grid is a very simple, responsive grid system you can use in your projects. Any style, any design. Just grid!
  
- The basis of the grid is a container with a width of 80% of the width of the screen for desktop or 96% for mobile. TMaximum with is equol 1200px. Container is divided into 12 columns.
+ The basis of the grid is a container with a width of 80% of the screen's width for desktop or 96% for mobile. TMaximum with is equol 1200px. The container is divided into 12 columns.
 
 ## It’s very simple! Here's how the Simple Grid system works:
 
